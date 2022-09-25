@@ -45,12 +45,6 @@ class MainFragment : Fragment() {
             if(!check){
                 Toast.makeText(requireContext(), "Bunday user mavjud emas!", Toast.LENGTH_SHORT).show()
             }
-//            Toast.makeText(requireContext(), str  , Toast.LENGTH_SHORT).show()
-//            Log.d("CHIQISHI KERAK", "onCreateView: $str")
-
-//            val str = decryption("salom")
-//            Toast.makeText(requireContext(), str, Toast.LENGTH_SHORT).show()
-//            Log.d("CHIQISHI KERAK", "onCreateView: $str")
 
         }
 
@@ -61,7 +55,6 @@ class MainFragment : Fragment() {
     external fun stringFromJNI(): String
     external fun encryption(login: String, password: String): String
     external fun decryption(info: String): String
-    //external fun stringParse(info:String): String
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

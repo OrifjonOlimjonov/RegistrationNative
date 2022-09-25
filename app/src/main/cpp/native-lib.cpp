@@ -16,7 +16,6 @@ Java_uz_orifjon_registrationnative_fragments_MainFragment_stringFromJNI(
 
 
 
-
 string stringParse(JNIEnv *env, jstring jStr) {
     if (!jStr)
         return "";
